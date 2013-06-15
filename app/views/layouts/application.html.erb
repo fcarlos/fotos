@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Grupo La Seña</title>
+  <%= csrf_meta_tags %>
+  <%= render 'layouts/stylesheets' %>
+  <%= javascript_include_tag('jquery-1.8.2.min') %>
+  <%= javascript_include_tag('jquery.dhonishow-min') %>
+  
+  
+</head>
+<body>		
+
+	<div class="container round">	
+		<article class="round" >
+		<section align="center">
+			<div class='dhonishow autoplay_4dot5' >
+				<%= image_tag("fotos/La_Se_9851.jpg", :alt => "La Seña", :size => "565x330") %>
+				<%= image_tag("fotos/La_Se_AgCal.jpg", :alt => "La Seña", :size => "565x330") %>
+				<%= image_tag("fotos/La_Se_Esce.jpg", :alt => "La Seña", :size => "565x330") %>
+			</div>
+		</section>			
+		</article>							
+	</div>
+	
+</body>
+</html>
